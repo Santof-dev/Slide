@@ -33,7 +33,7 @@ function showSlides(n) {
     }
 
     // Remove a classe "active" de todos os pontos
-    for (i = 0; i < dots.length; i++) {
+    for (i = A; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
 
